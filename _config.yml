@@ -8,12 +8,10 @@ github_username:  opensensensorsdata
 title: osd
 email: contact@osd.tools
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We deliver strategies and run projects of data reuse, making open data a valuable asset and a sustainable element of business models
 image:
-  twitter: /_assets/img/seo/psd-ogp-facebook.png
-  facebook: /_assets/img/seo/osd-ogp-facebook.png
+  twitter: /img/seo/psd-ogp-facebook.png
+  facebook: /img/seo/osd-ogp-facebook.png
 author: opensensensorsdata
 
 
