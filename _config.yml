@@ -15,7 +15,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /_assets/img/seo/osd-ogp-facebook.png
+      image: /assets/img/seo/osd-ogp-facebook.png
 
 
 # Build settings
