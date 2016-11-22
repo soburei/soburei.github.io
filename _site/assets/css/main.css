@@ -1,0 +1,219 @@
+.mdl-layout {
+  background-color: white;
+  font-size: 24px;
+  line-height: 36px; }
+
+/*
+- Measure section
+- Decoration printing style
+- Name
+- Section bottom block
+*/
+.osd-home {
+  max-width: 600px;
+  margin: auto;
+  padding-bottom: 32px; }
+
+.section-home {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 56px; }
+
+.print-angle-1 {
+  position: absolute;
+  top: 0px; }
+
+.print-angle-2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1); }
+
+.print-angle-3 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+  -webkit-transform: rotate(180deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(180deg); }
+
+.print-angle-4 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  -moz-transform: scale(1, -1);
+  -webkit-transform: scale(1, -1);
+  -o-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1); }
+
+.print-cross-1 {
+  position: absolute;
+  width: 12px;
+  top: 0px;
+  right: 50%;
+  transform: translateX(50%); }
+
+.print-cross-2 {
+  position: absolute;
+  width: 12px;
+  top: 50%;
+  transform: translateY(50%);
+  right: 0px; }
+
+.print-cross-3 {
+  position: absolute;
+  width: 12px;
+  bottom: 0px;
+  right: 50%;
+  transform: translateX(50%); }
+
+.print-cross-4 {
+  position: absolute;
+  width: 12px;
+  top: 50%;
+  transform: translateY(50%);
+  left: 0px; }
+
+.osd-home-name {
+  position: absolute;
+  font-size: .9rem;
+  padding: 4px 8px;
+  letter-spacing: 0.4em;
+  margin: 32px 0px 0px 16px; }
+
+.section-bottom-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  height: 25vh;
+  width: fit-content;
+  bottom: 12.5%;
+  left: 50%;
+  transform: translate(-50%); }
+  .section-bottom-block a {
+    text-align: center; }
+
+.section-title-block {
+  position: absolute;
+  display: flex;
+  width: 85%;
+  text-align: right;
+  top: 12.5%;
+  transform: translateY(33%);
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  left: 50%;
+  transform: translate(-50%); }
+
+.osd-home-logo-button {
+  max-width: 56px;
+  height: auto;
+  padding-left: 4px; }
+
+.title-block {
+  padding-right: 4px; }
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 1.3rem; }
+
+.section-payoff {
+  font-size: 1rem;
+  font-weight: 100; }
+
+@media screen and (max-width: 600px) {
+  .section-title {
+    text-transform: uppercase;
+    font-size: 1rem; }
+
+  .section-payoff {
+    font-size: .8rem;
+    font-weight: 100; } }
+.section-bottom-block-text {
+  max-width: 400px;
+  margin: auto;
+  padding: 24px;
+  letter-spacing: .02rem; }
+
+.osd-container {
+  margin: auto auto 50px;
+  max-width: 600px;
+  padding: 16px; }
+
+.post-meta-info a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black; }
+
+.translation {
+  margin-bottom: 50px; }
+  .translation img {
+    max-width: 36px;
+    height: auto;
+    float: left;
+    margin-right: 16px;
+    display: inline-block; }
+  .translation a {
+    color: #757575;
+    text-decoration: none; }
+
+.list-archive {
+  list-style-type: none; }
+
+.osd-project-card-name {
+  padding: 4px 0px 0px 16px;
+  text-transform: uppercase; }
+
+.osd-project-card-partner {
+  padding-left: 16px; }
+  .osd-project-card-partner a {
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none; }
+
+.or-spacer {
+  margin: 32px auto 16px;
+  width: 200px; }
+  .or-spacer .mask {
+    overflow: hidden;
+    height: 20px; }
+    .or-spacer .mask:after {
+      content: '';
+      display: block;
+      margin: -25px auto 0;
+      width: 100%;
+      height: 25px;
+      border-radius: 125px / 12px;
+      box-shadow: 0 0 8px black; }
+  .or-spacer span {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: -25px;
+    left: 50%;
+    margin-left: -25px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px #999;
+    background: white; }
+  .or-spacer span i {
+    position: absolute;
+    top: 4px;
+    bottom: 4px;
+    left: 4px;
+    right: 4px;
+    border-radius: 100%;
+    border: 1px dashed #aaa;
+    text-align: center;
+    line-height: 40px;
+    font-style: normal;
+    color: #999; }

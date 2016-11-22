@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+
+<main class="mdl-layout__content">
+  <div class="osd-container">
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="post-header">
+        <span><h3>{{ page.title | escape }}</h3></span>
+        <div class="post-meta">
+
+          {% if page.author %}
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">
+              {% for author in site.data.authors %}
+                {% if page.author == author.name %}
+                <a href="{{ site.url }}{{ site.baseurl }}/about">
+                  <div class="post-meta-photo">
+                    <img src="{{ site.url }}{{ site.baseurl }}/{{ author.img }}" alt="{{ author.full_name }}" class="avatar" />
+                  </div>
+                </a>
+                <div class="post-meta-info">
+                  <a href="http://twitter.com/{{ author.tw }}">
+                    <p class="post-meta-name">
+                      {{ author.name }}  <i class="{{ author.fa }}" aria-hidden="true"></i>
+                    <p>
+                  </a>
+
+                  <p class="mdl-color-text--grey-500 post-meta-info">
+                    <i>{{ author.descr }}</i>
+                  </p>
+                  <p class="mdl-color-text--grey-500 post-meta-date">
+                    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                      {{ page.date | date: "%b %-d, %Y" }}
+                    •
+                    {% assign words = content | number_of_words %}
+                    {% if words < 360 %}
+                      1 min
+                    {% else %}
+                      {{ words | divided_by:180 }} mins
+                    {% endif %}
+                    read
+                  </p>
+                </div>
+
+                {% endif %}
+              {% endfor %}
+            </span>
+          </span>
+          {% endif %}
+        </div>
+      </header>
+      <div itemprop="articleBody">
+        {{ content }}
+      </div>
+    </article>
+
+  </div>
+  {% include footer.html %}
+</main>

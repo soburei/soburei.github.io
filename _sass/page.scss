@@ -1,0 +1,49 @@
+.osd-container {
+  margin: auto auto $spacing-unit;
+  max-width: 600px;
+  padding: 16px;
+}
+
+.post-meta-info {
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+}
+
+.translation {
+  margin-bottom: $spacing-unit;
+
+  img {
+    max-width: 36px;
+    height: auto;
+    float: left;
+    margin-right: 16px;
+    display: inline-block;
+  }
+
+  a {
+    color: $gray-dark;
+    text-decoration: none;
+  }
+}
+
+.list-archive {
+  list-style-type: none;
+}
+
+.osd-project-card-name {
+  padding: 4px 0px 0px 16px;
+  text-transform: uppercase;
+}
+
+.osd-project-card-partner {
+  padding-left: 16px;
+
+  a {
+    font-size: 14px;
+    font-weight: 200;
+    text-decoration: none;
+  }
+}

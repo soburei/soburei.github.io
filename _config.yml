@@ -17,10 +17,13 @@ defaults:
     values:
       image: /assets/img/seo/osd-opg-facebook.png
 
+# Favicon
+touch_icon: assets/img/logos/apple-touch-icon-144-precomposed.png
+favicon: assets/img/logos/favicon.ico
+
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
   - jekyll-assets
@@ -28,3 +31,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# Repository
+# repository: opensensorsdata/opensensorsdata.github.io

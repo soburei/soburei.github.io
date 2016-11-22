@@ -1,0 +1,50 @@
+.section-title-block {
+  position: absolute;
+  display: flex;
+  width: 85%;
+  text-align: right;
+  top: 12.5%;
+  transform: translateY(33%);
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.osd-home-logo-button {
+  max-width: 56px;
+  height: auto;
+  padding-left: 4px;
+}
+
+.title-block {
+  padding-right: 4px;
+}
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.section-payoff {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+
+
+
+/// MOBILE
+
+@media screen and (max-width: $on-palm) {
+  .section-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  .section-payoff {
+    font-size: .8rem;
+    font-weight: 100;
+  }
+}
