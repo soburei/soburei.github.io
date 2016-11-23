@@ -1,27 +1,14 @@
 ---
 layout: default
 ---
+<article class="post">
 
-<main class="mdl-layout__content">
-  <div class="osd-container">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
 
-    <article class="page">
-
-      <header class="post-header">
-        <span><h3>{{ page.title | escape }}</h3></span>
-        <div class="post-meta">
-          <p class="mdl-color-text--grey-500 post-meta-date">
-              {% if page.update %}<i class="material-icons md-18">update</i> last update {{ page.update }}{% endif %}
-          </p>
-          {% if page.italian %}<p class="mdl-color-text--grey-500 translation"><a href="{{ site.url }}{{ site.baseurl }}{{ page.italian }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/icons/Flag_of_Italy.svg"> Italian version</a></p>{% endif %}
-          {% if page.english %}<p class="mdl-color-text--grey-500 translation"><a href="{{ site.url }}{{ site.baseurl }}{{ page.english }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/img/icons/Flag_of_the_United_Kingdom.svg"> English version</a></p>{% endif %}
-        </div>
-      </header>
-      <div itemprop="articleBody">
-        {{ content }}
-      </div>
-    </article>
-
+  <div class="post-content">
+    {{ content }}
   </div>
-  {% include footer.html %}
-</main>
+
+</article>
