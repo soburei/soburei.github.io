@@ -77,7 +77,7 @@ assets:
   #
 
   features:
-    liquid: false
+    liquid: true
     integrity: false
     automatic_img_size: true
     automatic_img_alt : true
