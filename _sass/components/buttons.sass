@@ -1,0 +1,26 @@
+.button
+  padding: 8px 16px
+  display: inline-block
+  text-decoration: none
+  border-radius: 3px
+  background-color: $gray-light
+  text-transform: uppercase
+  color: $alpha
+
+.button-tiny
+  font-size: 12px
+  padding: 6px 14px
+
+  @media #{$mobile}
+    font-size: 10px
+
+  @media #{$tablet}
+    font-size: 12px
+
+.button-primary
+  background: $gray
+
+
+.button-primary:hover
+  background: $indigo
+  color: white
