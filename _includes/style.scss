@@ -1,6 +1,29 @@
 @font-face {
   font-family: 'Roboto';
-  src: local('assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Roboto/Roboto-BlackItalic.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'Bungee Inline';
+  font-style: normal;
+  font-weight: 400;
+  src: url('assets/fonts/Bungee_Inline/BungeeInline-Regular.ttf')  format('truetype');
 }
 
 @import "base/variables";
