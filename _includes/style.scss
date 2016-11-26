@@ -1,4 +1,9 @@
 @font-face {
+  font-family: 'FontAwesome';
+  src: url('assets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf')  format('truetype');
+}
+
+@font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -19,12 +24,7 @@
   src: url('assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
 }
 
-@font-face {
-  font-family: 'Bungee Inline';
-  font-style: normal;
-  font-weight: 400;
-  src: url('assets/fonts/Bungee_Inline/BungeeInline-Regular.ttf')  format('truetype');
-}
+@import "assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css";
 
 @import "base/variables";
 @import "base/normalize";
