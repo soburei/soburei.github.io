@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+  font-family: 'Roboto';
+  src: local('assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
+}
 
 @import "base/variables";
 @import "base/normalize";
