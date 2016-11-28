@@ -1,0 +1,14 @@
+<div class="home-section-cards">
+  {% for price in site.data.prices %}
+  <div class="card">
+    <div class="card-title">
+      <span class="card-period">{{ price.period }}</span>
+        <span class="card-deliver">{{ price.deliver }}</span>
+    </div>
+    <div class="home-section-cards-price">
+      <span class="card-period">{{ price.cost }}</span>
+      <img src="/assets/img/icons/{{ price.icon }}">
+    </div>
+  </div>
+  {% endfor %}
+</div>

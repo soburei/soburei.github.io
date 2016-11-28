@@ -1,0 +1,16 @@
+- cost: "150€ <small>+ IVA</small>"
+  deliver: "<ul><li>Confronto per raggiungere una missione chiara e convincente</li></ul>"
+  period: "1 ORA"
+  icon: 'comments-o.svg'
+- cost: "1000€ <small>+ IVA</small>"
+  deliver: "<ul><li>Open Business Model <ul><li>documento</li><li>OBM canvas</li></ul></li></ul>"
+  period: "1 GIORNATA"
+  icon: 'shopping-basket.svg'
+- cost: "3400€ <small>+ IVA</small>"
+  deliver: "<ul><li>Analisi dei valori e degli obiettivi</li><li>Masterplan <ul><li>OBM canvas</li><li>schema</li></ul></li></ul>"
+  period: "4 GIORNI"
+  icon: 'shopping-cart.svg'
+- cost: "CONTATTACI"
+  deliver: "<ul><li>Masterplan management</li><li>Temporary product ownership</li></ul>"
+  period: "MENSILE"
+  icon: 'truck.svg'

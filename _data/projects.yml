@@ -1,0 +1,61 @@
+- name: "Open ICCD"
+  partner-1: "Istituto Centrale per il Catalogo e la Documentazione"
+  partner-url-1: 'http://www.iccd.beniculturali.it/'
+  logo: 'ICCD.jpg'
+  img: "openiccd.png"
+  date: "2016 - in progress"
+  type: "contract"
+  activities: "Masterplan management, Temporary product ownership"
+  description: "ICCD has launched its first opendata program. The goal of the project is to release cultural heritage data with open license, together with a set of tools to facilitate their reuse according to different contexts and users. <br> <small>L'ICCD ha avviato un processo di condivisione dei dati di catalogazione dei beni culturali, con una serie di strumenti a soddisfare le esigenze di utenti che si presentano diversificati per caratteristiche e aspettative.</small>"
+  site: "www.catalogo.beniculturali.it/opendata/"
+  site-name: "Open ICCD"
+
+- name: "Curiamo la corruzione"
+  partner-1: "Transparency International Italia"
+  partner-url-1: 'https://www.curiamolacorruzione.it/'
+  logo: 'transparency_italia.png'
+  img: "curiamolacorruzione.png"
+  date: "2016 - in progress"
+  type: "contract"
+  activities: "project management, open business model"
+  description: "<i>A Cure for Corruption</i> is a project by Transparency International. The mission is to promote transparency in the healthcare system. The goal of the project is to inform and help the executives and staff to fight corruption by means of clear and robust internal processes, and to share data from internal activities to improve organizations' transparency. <br> <small><i>Curiamo la Corruzione</i> è un progetto di Transparency International volto a migliorare la trasparenza delle aziende sanitarie. l'Obiettivo del progetto è quello di informare e aiutare il personale delle aziende sanitarie ad avviare processi interni per combattere il fenomeno della corruzione e condividere i dati delle attività interna per aumentare la trasparenza.</small>"
+  site: "www.curiamolacorruzione.it"
+  site-name: "Curiamo la corruzione"
+
+- name: "Archeostickers"
+  partner-1: 'Archeopop'
+  partner-2: 'Professione Archeologo'
+  partner-url-1: 'http://www.archeopop.it/'
+  partner-url-2: 'http://www.professionearcheologo.it/'
+  logo:
+  img: "archeostickers.png"
+  date: "2016 - in progress"
+  type: "Partnership"
+  activities: "ideation, realization, graphic communication, website design"
+  description: "Archeostickers is a telegram sticker package. Its purpose was to demonstrate that you can use art and archeology imanges as iconic element of communication. <br> small>Le archeostickers sono un pacchetto di stickers per Telegram per dimostrare che si può vedere l’arte e l’archeologia sotto l’aspetto del gioco e della traduzione iconica.</small>"
+  site: "www.archeostickers.com"
+  site-name: "Archeostickers"
+
+- name: "Porcellino Bot"
+  partner-1: "CNR Ibimet"
+  partner-url-1: 'http://www.ibimet.cnr.it/'
+  logo: 'cnribimet.png'
+  img: "porcellino.png"
+  date: "end 2016"
+  type: "contract"
+  activities: "ideation, opendata stream, communication design"
+  description: "PorcellinoBot is an experimental project about the communication and siddemination of weather data, launched with the Italian Institute of Biometeorology and the National Research Council. <br> <small>PorcellinoBot è un progetto di sperimentazione sulla comunicazione dei dati meteo avviato in collaborazione tra Ibimet e CNR.</small>"
+  site: "osd.tools/2016/02/10/Pubblicare-codice-pubblico.html"
+  site-name: "Pubblicare codice pubblico"
+
+- name: "Climb.world"
+  partner-1: 'Climb.World'
+  partner-url-1: 'https://www.climb.world/'
+  logo: 'climbworld.png'
+  img: "climbworld.png"
+  date: "2016 - in progress"
+  type: "pro bono"
+  activities: "Masterplan management, Temporary product ownership"
+  description: "ClimbWorld is the most advanced open library made by climbers for climbers. We created a way for the climbing community to discover and share climbing places and events. ClimbWorld opens new unexplored possibilities of online boulder tracking, digital curation and on-field gears' test.<br><small>ClimbWorld è la prima biblioteca aperta fatta da arrampicatori per gli arrampicatori. Consente alla community di scoprire e condividere i luoghi e gli eventi di arrampicata, e apre nuove e inesplorate possibilità di tracciatura online, curation digitale e on-field test di nuove attrezzature.</small>"
+  site: "www.climb.world"
+  site-name: "Climb.world"
