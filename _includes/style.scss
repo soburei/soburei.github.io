@@ -2,24 +2,26 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
+  src: url('../assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/Roboto/Roboto-BlackItalic.ttf')  format('truetype');
+  src: url('../assets/fonts/Roboto/Roboto-BlackItalic.ttf')  format('truetype');
 }
 
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  src: url('assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
+  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
 }
 
 //@import "assets/fonts/font-awesome-4.7.0/css/font-awesome.css";
+
+@import "bourbon/app/assets/stylesheets/_bourbon";
 
 @import "base/variables";
 @import "base/normalize";
@@ -29,6 +31,9 @@
 
 @import "components/buttons";
 @import "components/footer";
+@import "components/sidebar";
+
+@import "pages/page";
 
 @import "section/home-section-decoration";
 @import "section/home-section";
