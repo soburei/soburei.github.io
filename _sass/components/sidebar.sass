@@ -1,3 +1,61 @@
+.toggle-container
+  background: $gray
+  top: 0
+  height: 100%
+  width: 100%
+  margin: 0 auto
+  position: relative
+  padding-top: 150px
+  max-width: 560px
+
+  @media #{$mobile}
+    padding-top: 50px
+
+  @media #{$tablet}
+    padding-top: 50px
+
+  .toggle
+    position: absolute
+    top: 4px
+    right: 4px
+    //background: $pink
+
+    img
+      width: 24px
+      margin-bottom: 150px
+
+#sidebartoggler
+  display: none
+
+  &:checked + .wrapper-normal
+
+    .sidebar
+      left: 0px
+
+
 .sidebar
-  right: 0
-  background: $pink
+  +position(fixed, 0px 0 0px -190px)
+  width: 120px
+  padding: 30px
+  color: white
+  z-index: 0
+  background: $indigo
+
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+
+  li
+    color: white
+    font-size: 16px
+    list-style: none
+    margin-bottom: 16px
+    cursor: pointer
+
+    a
+      color: white
+      text-decoration: none
+
+      &:hover
+        color: $pink

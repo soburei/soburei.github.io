@@ -1,6 +1,5 @@
 body, html
 	font-size: 62.5%
-	height: 100%
 
 body
 	line-height: 1
@@ -32,6 +31,9 @@ h4
 a
 	color: $indigo
 	text-decoration: underline
+
+	&:hover
+		color: $pink
 
 p
 	line-height: 1.7
@@ -116,11 +118,16 @@ pre
 	border: 1px solid $epsilon
 	border-radius: 2px
 
+.page-content
+	padding: 0
+	background: $gray
+
 .wrapper-normal,
 .wrapper-large
-	height: 100%
 	width: 96%
 	margin: 0 auto
+	background: $pink
+	z-index: 0
 
 	@media #{$mobile}
 		width: 88%

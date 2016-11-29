@@ -1,0 +1,20 @@
+.border-top-page
+  border-top: 3px solid transparent
+  -moz-border-image: -moz-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+  -webkit-border-image: -webkit-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+  border-image: linear-gradient(to right, $pink 0%, $gray 50%, $indigo 100%)
+  border-image-slice: 1
+
+  @media #{$mobile}
+    border-top: 1px solid transparent
+    -moz-border-image: -moz-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+    -webkit-border-image: -webkit-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+    border-image: linear-gradient(to right, $pink 0%, $gray 50%, $indigo 100%)
+    border-image-slice: 1
+
+  @media #{$tablet}
+    border-top: 2px solid transparent
+    -moz-border-image: -moz-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+    -webkit-border-image: -webkit-linear-gradient(right, $pink 0%, $gray 50%, $indigo 100%)
+    border-image: linear-gradient(to right, $pink 0%, $gray 50%, $indigo 100%)
+    border-image-slice: 1
