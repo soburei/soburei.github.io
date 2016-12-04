@@ -118,16 +118,19 @@ pre
 	border: 1px solid $epsilon
 	border-radius: 2px
 
-.page-content
+/* Page content
+
+.page-wrap
 	padding: 0
-	background: $gray
+	margin: 0
+	z-index: 1
+	//background: $gray
 
 .wrapper-normal,
 .wrapper-large
 	width: 96%
 	margin: 0 auto
-	background: $pink
-	z-index: 0
+	//background: $pink
 
 	@media #{$mobile}
 		width: 88%
@@ -137,6 +140,8 @@ pre
 
 .wrapper-normal
 	max-width: 560px
+	position: relative
+	+transition()
 
 .wrapper-large
 	max-width: 810px

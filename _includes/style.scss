@@ -30,12 +30,13 @@
 @import "base/helpers";
 
 @import "components/buttons";
-@import "components/footer";
+//@import "components/footer";
 @import "components/sidebar";
 
 @import "pages/page";
 
-@import "section/home-section-decoration";
-@import "section/home-section";
-@import "section/home-section-elements";
-@import "section/home-section-prezzi";
+@import "section/home-block";
+//@import "section/home-section-decoration";
+//@import "section/home-section";
+//@import "section/home-section-elements";
+@import "section/price-cards";

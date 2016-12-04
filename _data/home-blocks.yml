@@ -1,0 +1,29 @@
+- top-name: 'opensensorsdata'
+  id: 'top'
+  title: "manifattura open data"
+  subtitle: 'servizi e progetti di riuso dati'
+  content: ''
+
+- top-name: '<a class="top-name-link" href="#top">△</a> 1/4 <a class="top-name-link" href="#obm">▽</a>'
+  id: 'intrapreneurship'
+  title: 'intrapreneurship'
+  subtitle: "creare innovazione dall'interno"
+  content: "La maggior parte dei progetti di riuso dati nascono all'interno di amministrazioni, imprese e istituti. La nostra sfida è aiutare a formare la prossima generazione di chi è o sarà a guida di questi progetti: gli intrepreneurs dei dati. Il nostro obiettivo è aiutarli a trasformare idee in progetti efficaci e sostenibili, a integrarsi nella struttura organizzativa esistente e a sfruttarne al meglio le risorse e le capacità."
+
+- top-name: '<a class="top-name-link" href="#intrapreneurship">△</a> 2/4 <a class="top-name-link" href="#metodo">▽</a>'
+  id: 'obm'
+  title: 'open business model'
+  subtitle: 'pianificare i modelli di riuso'
+  content: "Il business model è un elemento essenziale di organizzazione di un progetto. I progetti opendata non sono un'eccezione. La nostra sfida è di aiutare a scoprire nuove opportunità di mercato per i dati dei nostri clienti, definire nuovo valore per gli stakeholder conivolti nei loro network e studiare strategie per aprire i confini della loro organizzazione, accelerando lo sviluppo e abbattendone i costi."
+
+- top-name: '<a class="top-name-link" href="#obm">△</a> 3/4 <a class="top-name-link" href="#prezzi">▽</a>'
+  id: 'metodo'
+  title: 'metodo'
+  subtitle: 'armonizzare processi e persone'
+  content: >
+    La nostra missione è aiutare i nostri clienti a sviluppare e perseguire un uso strategico degli opendata. Il [masterplan](http://masterplan.tools) è il nostro metodo agile per raggiungere questo obiettivo. Consente di catturare il valore dei dati e applicarlo ai modelli di business tradizionali. Masterplan è pensato per armonizzare gli obiettivi di business con l'organizzazione dei ruoli, processi e attività che ne consentono il raggiungimento.
+
+- top-name: '<a class="top-name-link" href="#metodo">△</a> 4/4 <a class="top-name-link" href="#footer">▽</a>'
+  id: 'prezzi'
+  title: 'prezzi'
+  subtitle: 'probono'

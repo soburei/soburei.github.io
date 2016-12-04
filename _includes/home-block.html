@@ -1,0 +1,14 @@
+{% for home-block in site.data.home-blocks %}
+  <section class="home-section-block" id="{{ home-block.id }}"
+    <p class="top-name">
+      {{ home-block.top-name }}
+    </p>
+    <div class="home-block-title-container">
+      <h3 class="block-title">{{ home-block.title }}</h3>
+      <h4 class="block-subtitle">{{ home-block.subtitle }}</h4>
+    </div>
+    <div class="home-block-content">
+      {{ home-block.content | markdownify }}
+    </div>
+  </section>
+{% endfor %}
