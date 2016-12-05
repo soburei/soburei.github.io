@@ -3,7 +3,7 @@ layout: page
 title: Manifesto
 permalink: /manifesto/
 update: 2015-06-30
-italian: /documents/manifesto.html/
+italian: /documents/manifesto.html
 ---
 
 Internet is an agreement on how different networks can work together. We hold the internet in common, it doesn’t belong to anyone in particular. For those who agree, Internet is a public good –everyone can use it and improve it– but the key value of the net is not built-in in its architecture. Internet is not optimised for specific purposes; in itself, internet is stupid –does nothing more than moving bits. It has no center, its key value is at its ends. Counting on the internet, everyone at each edge can offer services built on top of it. Counting on the open, unowned agreement upon which the Internet is based, everyone at each edge can share data. The Internet enable a free market of innovation, where people with business ideas are not just free to engage with a marketplace, they create a marketplace though conversations and connections. Edges are not points at which the internet ends, but where its value begin to be exploited. We are among those edges. We are an Internet company. That’s our posit.
