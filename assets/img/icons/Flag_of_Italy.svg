@@ -7,9 +7,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="265.85825"
-   height="150"
-   viewBox="0 0 0.53171649 0.3"
+   width="56"
+   height="30"
+   viewBox="0 0 0.112 0.06"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -41,16 +41,20 @@
      inkscape:window-height="692"
      id="namedview10"
      showgrid="false"
-     inkscape:zoom="0.38333332"
-     inkscape:cx="-105.65215"
-     inkscape:cy="-21.739149"
+     inkscape:zoom="1.5333333"
+     inkscape:cx="34.744692"
+     inkscape:cy="-33.119648"
      inkscape:window-x="242"
      inkscape:window-y="207"
      inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <g
      id="g4135"
-     transform="matrix(1.2117998,0,0,0.90884995,-0.05630872,0.01367251)">
+     transform="matrix(0.26666662,0,0,0.2142857,-0.01489552,-0.00214286)">
     <rect
        style="fill:#009246"
        y="0.0099999933"

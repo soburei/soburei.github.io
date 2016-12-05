@@ -2,7 +2,21 @@
 layout: default
 ---
 
-{% include border-top.html %}
-<div class="wrapper-normal">
-  {{ content }}
-</div>
+{% include header.html %}
+<main class="wrapper-normal">
+  <article>
+    <header>
+      <span class="page-title"><h1>{{ page.title | escape }}</h1></span>
+      <div class="post-meta">
+        {% if page.italian %}<span><a href="{{ site.url }}{{ site.baseurl }}{{ page.italian }}"><img src="/assets/img/icons/Flag_of_Italy.svg"> Italian version</a></span>{% endif %}
+        {% if page.english %}<span><a href="{{ site.url }}{{ site.baseurl }}{{ page.english }}"><img src="/assets/img/icons/Flag_of_USA_UK.png"> English version</a></span>{% endif %}
+      </div>
+    </header>
+    <div itemprop="articleBody">
+      {{ content }}
+    </div>
+    <p class="page-update">
+      {% if page.update %}last update {{ page.update }}{% endif %}
+    </p>
+  </article>
+</main>

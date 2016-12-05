@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: Progetti
 display-order: 4
 ---

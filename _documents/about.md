@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: About
 display-order: 1
 ---

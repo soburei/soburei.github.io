@@ -1,5 +1,5 @@
 ---
-layout: document
+layout: page
 title: Servizi
 display-order: 3
 ---

@@ -10,7 +10,7 @@
   deliver: "<ul><li>Analisi dei valori e degli obiettivi</li><li>Masterplan <ul><li>OBM canvas</li><li>schema</li></ul></li></ul>"
   period: "4 GIORNI"
   icon: 'shopping-cart.svg'
-- cost: "CONTATTACI"
+- cost: 'CONTATTACI'
   deliver: "<ul><li>Masterplan management</li><li>Temporary product ownership</li></ul>"
   period: "MENSILE"
   icon: 'truck.svg'

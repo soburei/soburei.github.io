@@ -1,23 +1,4 @@
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/Roboto/Roboto-Black.ttf')  format('truetype');
-}
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/Roboto/Roboto-BlackItalic.ttf')  format('truetype');
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/Roboto/Roboto-Regular.ttf')  format('truetype');
-}
 
 //@import "assets/fonts/font-awesome-4.7.0/css/font-awesome.css";
 
@@ -33,7 +14,7 @@
 @import "components/footer";
 
 @import "pages/page";
-@import "pages/document";
+@import "pages/header";
 
 @import "section/home-block";
 @import "section/home-section-decoration";

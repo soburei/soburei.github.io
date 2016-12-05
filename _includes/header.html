@@ -1,0 +1,21 @@
+<div class="header">
+  <div class="menu-arrow">
+    <div class="arrow-prev">
+      {% if page.previous.url %}
+        <a href="{{ site.baseurl }}{{ page.previous.url | xml_escape  }}">
+          ◀ <span>{{ page.previous.title }}</span>
+        </a>
+      {% endif %}
+    </div>
+    <div class="arrow-next">
+      {% if page.next.url %}
+        <a href="{{ site.baseurl }}{{ page.next.url }}">
+          <span>{{ page.next.title }}</span> ▶
+        </a>
+      {% endif %}
+    </div>
+  </div>
+  <div class="menu-arrow-logo-home">
+    <a href="/"><img src="/assets/img/logos/osd-logo-home.svg" alt="logo osd" /></a>
+  </div>
+</div>

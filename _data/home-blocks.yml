@@ -20,6 +20,6 @@
   subtitle: 'armonizzare processi e persone'
   image: 'button-masterplan.svg'
   button-url: 'http://masterplan.tools'
-  extra-text: '<a class="button button-primary button-tiny" href="/progetti">progetti</a>'
+  extra-text: '<a class="button button-primary button-tiny" href="/documents/progetti.html">progetti</a>'
   content: >
     La nostra missione è aiutare i nostri clienti a sviluppare e perseguire un uso strategico degli opendata. Il [masterplan](http://masterplan.tools) è il nostro metodo agile per raggiungere questo obiettivo. Consente di catturare il valore dei dati e applicarlo ai modelli di business tradizionali. Masterplan è pensato per armonizzare gli obiettivi di business con l'organizzazione dei ruoli, processi e attività che ne consentono il raggiungimento.
