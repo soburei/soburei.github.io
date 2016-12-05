@@ -6,33 +6,11 @@ layout: compress
 
   {% include head.html %}
 
-
-
   <body>
-    {% include border-top.html %}
 
-    <input type="checkbox" id="sidebartoggler" name="name" value="">
+    {{ content }}
 
-    <div class="page-wrap">
-
-      <label for="sidebartoggler" class="toggle"></label>
-
-      {{ content }}
-
-      <nav class="sidebar">
-        {{ site.name }}
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/servizi">Servizi</a></li>
-          <li><a href="/progetti">Progetti</a></li>
-          <li><a href="/progetti">come se fosse antani</a></li>
-        </ul>
-      <nav>
-
-    </div>
-
-
+    {% include footer.html %}
 
   </body>
 

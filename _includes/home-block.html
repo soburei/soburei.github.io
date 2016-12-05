@@ -1,14 +1,67 @@
-{% for home-block in site.data.home-blocks %}
-  <section class="home-section-block" id="{{ home-block.id }}"
+<!-- Header-->
+<section class="home-section-block" id="{{ home-block.id }}">
+  {% include home-section-decoration.html %}
+  <div class="home-block-header">
     <p class="top-name">
-      {{ home-block.top-name }}
+      opensensorsdata
     </p>
+    <div class="home-block-title-container">
+      <h3 class="block-title">manifattura open data</h3>
+      <h4 class="block-subtitle">servizi e progetti di riuso dati</h4>
+    </div>
+    <div class="logo-button">
+      <a href="/documents/about.html"><img src="/assets/img/logos/osd-logo-home-tondo.svg" alt="osd logo" /></a>
+    </div>
+  </div>
+  <div class="home-block-content">
+    <div class="buttons-header">
+      <a class="button button-primary button-tiny" href="#intrapreneurship">intrapreneurship</a>
+      <a class="button button-primary button-tiny" href="#obm">open business model</a>
+      <a class="button button-primary button-tiny" href="#metodo">metodo</a>
+      <a class="button button-primary button-tiny" href="#prezzi">prezzi</a>
+    </div>
+  </div>
+</section>
+
+<!-- Block from _data "home-block"-->
+
+{% for home-block in site.data.home-blocks %}
+<section class="home-section-block" id="{{ home-block.id }}">
+  {% include home-section-decoration.html %}
+  <div class="home-block-header">
+    <span class="top-name">
+      {{ home-block.top-name }}
+    </span>
     <div class="home-block-title-container">
       <h3 class="block-title">{{ home-block.title }}</h3>
       <h4 class="block-subtitle">{{ home-block.subtitle }}</h4>
     </div>
-    <div class="home-block-content">
+    <div class="logo-button">
+      <a href="{{ home-block.button-url }}"><img src="/assets/img/icons/{{ home-block.image }}" alt="{{ home-block.title }} logo" /></a>
+      {{ home-block.extra-text }}
+    </div>
+  </div>
+  <div class="home-block-content">
+    <div class="block-content-text">
       {{ home-block.content | markdownify }}
     </div>
-  </section>
+  </div>
+</section>
 {% endfor %}
+
+<!-- Prezzi -->
+<section class="cards-section" id="prezzi">
+  <div class="cards-section-header">
+    <div class="logo-button-prezzi">
+      <a href="/documents/servizi.html"><img class="logo-button-prezzi" src="/assets/img/icons/button-handshake.svg" alt="osd logo" /></a>
+    </div>
+    <div class="cards-section-title">
+      <a class="button button-primary" href="/documents/servizi.html">servizi</a>
+      <a class="button button-primary" href="/documents/servizi.html#probono">probono</a>
+    </div>
+  </div>
+
+  {% include price-cards.html %}
+
+
+</section>

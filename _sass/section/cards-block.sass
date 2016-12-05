@@ -1,44 +1,13 @@
-.home-section-prezzi
-  position: absolute
-  top: 0
-  left: 32px
-  right: 32px
-  resize: vertical
-  overflow: inherit
-  height: 25%
-  //background-color: $gray
-
-  @media #{$mobile}
-    padding: 4px
-    top: 16px
-    left: 16px
-    right: 16px
-
-  @media #{$tablet}
-    padding: 4px
-    top: 16px
-    left: 16px
-    right: 16px
-
-.section-prezzi-title-block
+.card-container
   width: 100%
-  //background-color: $pink
-  top: 0
-  position: absolute
-  display: flex
-  justify-content: space-between
-  align-items: center
-
-.home-section-cards
-  position: absolute
-  top: calc(25% - 64px)
   height: 75%
+  position: absolute
+  //background: $gray
   display: flex
   flex-wrap: wrap
   justify-content: space-around
   align-items: center
   color: white
-  //background: $gray
 
 .card
   width: calc(50% - 3%)
@@ -73,6 +42,19 @@
   @media #{$mobile}
     font-size: 1.5rem
 
+.card-cost
+  margin-top: 4px
+
+  a
+    color: white
+    background: lighten($indigo, 5%)
+    padding: 5px 10px
+    border-radius: 2px
+
+    &:hover
+      color: $pink
+      background: lighten($indigo, 70%)
+
 
 .card-deliver
   color: white
@@ -93,14 +75,12 @@
     @media #{$tablet}
       line-height: 1.5
 
-
-
-.home-section-cards-price
+.card-prezzo
   height: 40px
   border-top: 1px solid lighten($indigo, 10%)
   padding: 0 8px
   display: flex
-  align-items: center
+  align-items: flex-end
   justify-content: space-between
 
   h3
@@ -111,9 +91,3 @@
 
     @media #{$mobile}
       width: 16px
-
-.section-title-block-prezzi-titles
-  display: flex
-  justify-content: space-between
-  width: 60%
-  padding-right: 8px

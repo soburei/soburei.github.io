@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1256,6 +1256,67 @@
          clip-path="none"
          mask="none" />
     </clipPath>
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4886-8"
+       is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4882-7"
+       effect="spiro" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4878-1"
+       effect="spiro" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4444"
+       id="linearGradient5603"
+       x1="1481.6096"
+       y1="393.59521"
+       x2="3401.6096"
+       y2="393.59521"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4444"
+       id="linearGradient5605"
+       gradientUnits="userSpaceOnUse"
+       x1="1481.6096"
+       y1="393.59521"
+       x2="3401.6096"
+       y2="393.59521"
+       gradientTransform="translate(-1761.6116,2283.4524)" />
+    <clipPath
+       id="clipPath8097-0"
+       clipPathUnits="userSpaceOnUse">
+      <rect
+         mask="none"
+         clip-path="none"
+         rx="40.909092"
+         ry="40.909092"
+         y="-1034.2781"
+         x="1762.1588"
+         height="436.36365"
+         width="600"
+         id="rect8099-15"
+         style="display:inline;opacity:1;fill:#757575;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:263;stroke-opacity:1" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath8097-5-6">
+      <rect
+         style="display:inline;opacity:1;fill:#757575;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:263;stroke-opacity:1"
+         id="rect8099-3-4"
+         width="600"
+         height="436.36365"
+         x="1762.1588"
+         y="-1034.2781"
+         ry="40.909092"
+         rx="40.909092"
+         clip-path="none"
+         mask="none" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -1274,8 +1335,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="1.489975"
-     inkscape:cx="60.460385"
+     inkscape:zoom="1.0535714"
+     inkscape:cx="71.19882"
      inkscape:cy="178.25625"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -1406,7 +1467,7 @@
      inkscape:label="sfondo"
      id="layer1-3-1" />
   <g
-     transform="matrix(0.95302484,0,0,0.95302484,25.359448,28.523129)"
+     transform="matrix(0.79534254,0,0,0.79534254,37.185621,40.349301)"
      id="g5850">
     <g
        id="layer2"
@@ -4833,4 +4894,16 @@
          y="910.95593"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold'" /></text>
   </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:125%;font-family:Griffo;-inkscape-font-specification:Griffo;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-1938.9955"
+     y="713.32605"
+     id="text4157-1"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4159-9"
+       x="-1938.9955"
+       y="713.32605"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold'" /></text>
 </svg>

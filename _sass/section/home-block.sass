@@ -1,42 +1,118 @@
 .home-section-block
-  //background: $pink
-  padding-top: 25%
-  padding-bottom: 25%
+  //background: $indigo
+  height: 100vh
   margin-bottom: $spacing-unit
+  position: relative
 
-  .top-name
-    letter-spacing: 1px
+.home-block-header
+  //background: $gray
+  height: 50vh
+  position: absolute
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+// Left top text
+.top-name
+  letter-spacing: 1px
+  font-size: 1.3rem
+  margin: 3rem
+  display: flex
+  justify-content: space-between
+
+.top-name-link
+  text-decoration: none
+  color: black
+
+// Block title
+.home-block-title-container
+  margin: 0 3rem
+  text-align: right
+
+.block-title
+  text-transform: uppercase
+
+  @media #{$mobile}
+    font-size: 1.6rem
+
+  @media #{$tablet}
+    font-size: 1.9rem
+
+.block-subtitle
+  letter-spacing: 1px
+  font-weight: 100
+
+  @media #{$mobile}
     font-size: 1.3rem
 
-  .top-name-link
-    text-decoration: none
-    color: black
+  @media #{$tablet}
+    font-size: 1.5rem
 
-  .block-title
-    text-transform: uppercase
+// Image button
+.logo-button
+  display: flex
+  justify-content: space-between
+  align-items: center
+  margin: 0 3rem
 
-    @media #{$mobile}
-      font-size: 1.6rem
+  img
+    height: 56px
 
-    @media #{$tablet}
-      font-size: 1.9rem
+//Buttons home
+.buttons-header
+  display: flex
+  flex-direction: column
+  text-align: center
+  justify-content: space-around
+  height: 100%
+  width: 50%
+  margin: 0 auto
 
-  .block-subtitle
-    letter-spacing: 1px
-    font-weight: 100
-    text-align: right
 
-    @media #{$mobile}
-      font-size: 1.3rem
+// Home text
+.home-block-content
+  top: 50vh
+  //background: rgba(233, 30, 99, 0.3)
+  height: 50vh
+  position: absolute
+  width: 100%
+  display: flex
+  flex-direction: column
+  justify-content: center
 
-    @media #{$tablet}
-      font-size: 1.5rem
+.block-content-text
+  margin: 0 3rem
 
-  .home-block-content
-    padding: 8px
+  @media #{$mobile}
+    font-size: 1.2rem
 
-    @media #{$mobile}
-      font-size: 1.2rem
+  @media #{$tablet}
+    font-size: 1.5rem
 
-    @media #{$tablet}
-      font-size: 1.5rem
+// Prezzi cards
+.cards-section
+  //background: $indigo
+  height: 100vh
+  position: relative
+  margin: 0 1rem $spacing-unit
+
+.cards-section-header
+  //background: yellow
+  height: 25%
+  margin: 0 2rem
+  display: flex
+  justify-content: space-between
+
+.logo-button-prezzi
+  height: 100%
+
+  img
+    width: 56px
+
+
+.cards-section-title
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  text-align: center

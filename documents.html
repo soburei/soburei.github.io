@@ -1,0 +1,13 @@
+---
+layout: page
+title: Documenti
+permalink: /documenti/
+---
+
+<div class="">
+  {% for document in site.documents %}
+    <h2><a href="{{ document.url }}">{{ document.title }}</a></h2>
+
+  {% endfor %}
+
+</div>
