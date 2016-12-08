@@ -1,0 +1,42 @@
+<section class="home-section" style="background-color:#F06695; color:black" id="top">
+  <div class="section-top">
+    opensensorsdata
+  </div>
+  <div class="section-title-container">
+    <div class="section-title-block">
+
+      <h1 class="section-title">manifattura open data</h1>
+      <h2 class="section-subtitle">servizi e progetti di riuso dati </h2>
+    </div>
+    <div class="section-logo">
+      <a href="/documents/about.html"><img src="/assets/img/logos/osd-logo-home-tondo.svg" alt="osd logo" /></a>
+    </div>
+  </div>
+
+
+  <div class="section-content">
+    <div class="buttons-container">
+      <a class="index-button" href="#intrapreneurship">intrapreneurship</a>
+      <a class="index-button" href="#obm">open business model</a>
+      <a class="index-button" href="#metodo">metodo</a>
+      <a class="index-button" href="#prezzi">prezzi</a>
+    </div>
+  </div>
+</section>
+
+
+
+{% for home-block in site.data.home-blocks %}
+<section class="home-section" style="background-color:#595959; color:white" id="top">
+  <span>opensensorsdata</span>
+  <h1 style="color:white">manifattura open data</h1>
+  <h2>servizi e progetti di riuso dati </h2>
+  <div class="section-logo">
+    <a href="/documents/about.html"><img src="/assets/img/logos/osd-logo-home-tondo.svg" alt="osd logo" /></a>
+  </div>
+
+  <div class="">
+    {{ home-block.content | markdownify }}
+  </div>
+</section>
+{% endfor %}

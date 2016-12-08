@@ -1,61 +1,66 @@
-.home-large
-	height: 100vh
-	width: 100%
-	max-width: 560px
-	margin: auto
-	position: relative
-	//background-color: $indigo
-	margin-bottom: 32px
+.home-section
+  width: 100vw
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: space-around
 
-.home-section-1
-	position: absolute
-	top: 32px
-	left: 32px
-	right: 32px
-	resize: vertical
-	overflow: inherit
-	height: 45%
-	//background-color: $gray
+.section-top
+  font-size: 6vw
 
-	@media #{$mobile}
-		padding: 4px
-		top: 16px
-		left: 16px
-		right: 16px
+.section-title-container
+  width: 100%
+  display: flex
+  justify-content: space-between
 
-	@media #{$tablet}
-		padding: 4px
-		top: 16px
-		left: 16px
-		right: 16px
+.section-title-block
+  display: flex
+  width: 75vw
+  flex-direction: column
+  justify-content: space-between
 
-.home-section-1
-	max-width: 560px
+.section-title
+  text-transform: uppercase
+  font-size: 36px
+  font-size: 6vw
 
-.home-section-2
-	position: absolute
-	bottom: 32px
-	left: 32px
-	right: 32px
-	padding: 8px
-	resize: vertical
-	overflow: inherit
-	height: calc(50% - 64px)
-	//background-color: white
+.section-subtitle
+  font-size: 36px
+  font-size: 4vw
+  font-weight: 100
 
-	@media #{$mobile}
-		padding: 4px
-		bottom: 16px
-		left: 16px
-		right: 16px
-		height: calc(50% - 32px)
 
-	@media #{$tablet}
-		padding: 4px
-		bottom: 16px
-		left: 16px
-		right: 16px
-		height: calc(50% - 32px)
+.section-logo
+  width: 25vw
 
-.home-section-2
-	max-width: 560px
+  img
+    width: 90%
+    float: right
+
+.section-content
+  width: 100vw
+  height: auto
+
+.buttons-container
+  width: 50vw
+  display: flex
+  float: right
+  flex-direction: column
+  justify-content: space-around
+  text-align: center
+
+
+.index-button
+  padding: 8px 16px
+  margin-bottom: 2vh
+  display: inline-block
+  text-decoration: none
+  border-radius: 50px 0px 0px 50px
+  background-color: $gray-light
+  text-transform: uppercase
+  color: $alpha
+  font-size: 2.5vw
+
+  &:hover
+    background-color: $indigo
+    color: white
