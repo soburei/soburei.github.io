@@ -1,6 +1,6 @@
 <!-- Header-->
 <section class="home-section-block" id="{{ home-block.id }}">
-
+  {% include home-section-decoration.html %}
   <div class="home-block-header">
     <p class="top-name">
       opensensorsdata
@@ -27,7 +27,7 @@
 
 {% for home-block in site.data.home-blocks %}
 <section class="home-section-block" id="{{ home-block.id }}">
-
+  {% include home-section-decoration.html %}
   <div class="home-block-header">
     <span class="top-name">
       {{ home-block.top-name }}
