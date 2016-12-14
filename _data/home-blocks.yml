@@ -1,38 +1,36 @@
-- top-name: '1⋅4'
+- top-name: '1/4'
   prev-id: 'top'
   id: 'intrapreneurship'
   next-id: 'obm'
-  bg: '#F06695'
+  border: '#e91e63'
   color: '#000000'
-  title: 'intrapreneurship'
-  subtitle: "creare innovazione dall'interno"
-  image: 'button-recycle.svg'
+  title: 'Intrapreneurship'
+  subtitle: "Creare innovazione dall'interno"
+  image: 'icon-recycle.svg'
   button-url: 'javascript:void(0)'
   content: "La maggior parte dei progetti di riuso dati nascono all'interno di amministrazioni, imprese e istituti. La nostra sfida è aiutare a formare la prossima generazione di chi è o sarà a guida di questi progetti: gli intrepreneurs dei dati. Il nostro obiettivo è aiutarli a trasformare idee in progetti efficaci e sostenibili, a integrarsi nella struttura organizzativa esistente e a sfruttarne al meglio le risorse e le capacità."
 
-- top-name: '2⋅4'
+- top-name: '2/4'
   prev-id: 'intrapreneurship'
   id: 'obm'
   next-id: 'metodo'
-  bg: '#595959'
+  border: '#757575'
   color: '#FFFFFF'
-  title: 'open business model'
-  subtitle: 'pianificare i modelli di riuso'
-  image: 'button-obm.svg'
+  title: 'Open Business Model'
+  subtitle: 'Pianificare i modelli di riuso'
+  image: 'icon-obm.svg'
   button-url: 'javascript:void(0)'
-  content: "Il business model è un elemento essenziale di organizzazione di un progetto. I progetti opendata non sono un'eccezione. La nostra sfida è di aiutare a scoprire nuove opportunità di mercato per i dati dei nostri clienti, definire nuovo valore per gli stakeholder conivolti nei loro network e studiare strategie per aprire i confini della loro organizzazione, accelerando lo sviluppo e abbattendone i costi."
+  content: "Il business model è un elemento essenziale di organizzazione di un progetto. I progetti open data non sono un'eccezione. La nostra sfida è di aiutare a scoprire nuove opportunità di mercato per i dati dei nostri clienti, definire nuovo valore per gli stakeholder coinvolti nei loro network e studiare strategie per aprire i confini della loro organizzazione, accelerando lo sviluppo e abbattendone i costi."
 
-- top-name: '3⋅4'
+- top-name: '3/4'
   prev-id: 'obm'
   id: 'metodo'
   next-id: 'prezzi'
-  bg: '#3E50B2'
+  border: '#3f51b5'
   color: '#FFFFFF'
-  title: 'metodo'
-  subtitle: 'armonizzare processi e persone'
-  image: 'button-masterplan.svg'
+  title: 'Metodo'
+  subtitle: 'Armonizzare processi e persone'
+  image: 'icon-masterplan.svg'
   button-url: 'http://masterplan.tools'
   extra-text: '<a class="button button-primary button-tiny" href="/documents/progetti.html">progetti</a>'
-  content: >
-    La nostra missione è aiutare i nostri clienti a sviluppare e perseguire un uso strategico degli opendata. Il
-    <a class="link-metodo" href="http://masterplan.tools">masterplan</a> è il nostro metodo agile per raggiungere questo obiettivo. Consente di catturare il valore dei dati e applicarlo ai modelli di business tradizionali. Masterplan è pensato per armonizzare gli obiettivi di business con l'organizzazione dei ruoli, processi e attività che ne consentono il raggiungimento.
+  content: "La nostra missione è aiutare i nostri clienti a sviluppare e perseguire un uso strategico degli open data. Il [masterplan](http://masterplan.tools) è il nostro metodo agile per raggiungere questo obiettivo. Consente di catturare il valore dei dati e applicarlo ai modelli di business tradizionali. Masterplan è pensato per armonizzare gli obiettivi di business con l'organizzazione dei ruoli, processi e attività che ne consentono il raggiungimento."

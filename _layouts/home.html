@@ -2,6 +2,70 @@
 layout: default
 ---
 
-<div class="wrapper-home">
-  {% include home-section.html %}
-</div>
+<section class="home-header">
+  <div class="top-name">
+    <span>opensensorsdata</span>
+    <img src="assets/img/logos/osd-logo.svg" alt="logo osd"/>
+  </div>
+
+  <div class="section-title-container">
+    <h1>Manifattura open data</h1>
+    <span class="section-home-subtitle">Servizi e progetti di riuso dati</span>
+  </div>
+  <div class="buttons-container">
+    <h3><a href="#intrapreneurship">intrapreneurship</a></h3>
+    <h3><a href="#obm">open business model</a></h3>
+    <h3><a href="#metodo">metodo</a></h3>
+    <h3><a href="#prezzi">prezzi</a></h3>
+  </div>
+</section>
+
+
+{% for home-block in site.data.home-blocks %}
+<section style="border-top:3px solid {{ home-block.border }}" class="home-header" id="{{ home-block.id }}">
+  <div class="top-name">
+    <img src="assets/img/icons/{{ home-block.image }}" alt="logo {{ home-block.title }}"/>
+    <span class="id-link without-decoration">
+      <a href="#{{ home-block.prev-id}}">△</a>
+      {{ home-block.top-name }}
+      <a href="#{{ home-block.next-id}}">▽</a>
+    </span>
+  </div>
+
+  <div class="section-title-container">
+    <h2>{{ home-block.title }}</h2>
+    <span class="section-home-subtitle">{{ home-block.subtitle }}</span>
+  </div>
+  <div class="section-text">
+    {{ home-block.content | markdownify }}
+  </div>
+</section>
+{% endfor %}
+
+<section style="border-top:3px solid #111111" class="home-header" id="prezzi">
+  <div class="top-name">
+    <img src="assets/img/icons/icon-handshake.svg" alt="logo {{ home-block.title }}"/>
+    <span class="id-link without-decoration">
+      <a href="#metodo">△</a>
+      4/4
+      <a href="#footer">▽</a>
+    </span>
+  </div>
+
+  <div class="section-title-container">
+    <h2><a href="/documents/servizi">Prezzi e servizi</a></h2>
+    <span class="section-home-subtitle"><a href="/documents/servizi/#probono">Sottoponici un progetto che sosterremo probono</a></span>
+  </div>
+
+  <div class="section-text">
+  {% for price in site.data.prices %}
+    <div class="">
+      <h3><b>{{ price.period }}</b>: <a href="mailto:contact@osd.tools">{{ price.cost }}</a></h3>
+      <p>{{ price.deliver }}</p>
+
+    </div>
+    <hr>
+  {% endfor %}
+  </div>
+
+</section>

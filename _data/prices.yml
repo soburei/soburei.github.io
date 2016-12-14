@@ -1,16 +1,16 @@
 - cost: "150€ <small>+ IVA</small>"
-  deliver: "<ul><li>Confronto per raggiungere una missione chiara e convincente</li></ul>"
-  period: "1 ORA"
+  deliver: "Facciamo un confronto per raggiungere una missione chiara e convincente"
+  period: "1 ora"
   icon: 'comments-o.svg'
 - cost: "1000€ <small>+ IVA</small>"
-  deliver: "<ul><li>Open Business Model <ul><li>documento</li><li>OBM canvas</li></ul></li></ul>"
-  period: "1 GIORNATA"
+  deliver: "Costruiamo assieme l'Open Business Model, <br>il documento applicativo <br>e l'Open Business Model Canvas"
+  period: "1 giornata"
   icon: 'shopping-basket.svg'
 - cost: "3400€ <small>+ IVA</small>"
-  deliver: "<ul><li>Analisi dei valori e degli obiettivi</li><li>Masterplan <ul><li>OBM canvas</li><li>schema</li></ul></li></ul>"
-  period: "4 GIORNI"
+  deliver: "Facciamo un'analisi dei valori e degli obiettivi,<br>introduciamo al Masterplan <br> ecomponiamo l'Open Business Model Canvas canvas <br>compilando poi lo schema operativo"
+  period: "4 giorni"
   icon: 'shopping-cart.svg'
-- cost: 'CONTATTACI'
-  deliver: "<ul><li>Masterplan management</li><li>Temporary product ownership</li></ul>"
-  period: "MENSILE"
+- cost: 'Scrivici'
+  deliver: "Interveniamo con il Masterplan management<br> assumendo il ruolo di Temporary Product Owner"
+  period: "Mensile"
   icon: 'truck.svg'

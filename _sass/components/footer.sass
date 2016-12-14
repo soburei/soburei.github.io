@@ -1,69 +1,44 @@
 .footer
-  background: $footer-background
-  padding: $spacing-unit 0 $spacing-unit
-  width: 100%
+  width: 55%
+  height: auto
+  display: flex
+  flex-direction: column
+  justify-content: space-between
 
-  .footer-logo
-    margin-bottom: 2em
-    text-align: center
-
-    img
-      height: 3em
-
-  .footer-custom-links
-    padding-top: 1rem
-
-    a
-      text-align: center
-      color: white
-
-
-  .footer-links
-    display: flex
-    flex-wrap: wrap
-    justify-content: center
-    margin-bottom: $base-spacing
-
-  ul
-    flex-basis: 13em
-    flex-shrink: 0
-    margin-bottom: $base-spacing * 2
-    padding: 0
-
-  li
-    line-height: 1.5em
-    list-style: none
-    text-align: center
-
-  li a
-    color: $footer-link-color
-    text-decoration: none
-
-    &:focus,
-    &:hover
-      color: transparentize($footer-color, 0)
-
-  li h3
-    color: $footer-color
-    font-size: 1em
-    margin-bottom: 0.4em
-
-  hr
-    border: 1px solid transparentize($footer-disclaimer-color, 0.3)
-    margin: 0 auto $base-spacing
-    width: 12em
+  @media (max-width: 760px)
+    width: 100%
 
   p
-    color: $footer-disclaimer-color
-    font-size: 0.9em
-    line-height: 1.5em
+    width: 98%
     margin: auto
-    max-width: 35em
-    text-align: center
+    margin-top: 1.4rem
+    margin-bottom: 1.4rem
 
-  .footer-text-link
-    text-decoration: none
-    color: $footer-link-color
+    @media (max-width: 760px)
+      font-size: 1.2rem
+      line-height: 1.6rem
 
-    &:hover
-      color: transparentize($footer-color, 0)
+.footer-logo
+  padding: 0
+  margin: 0
+
+  img
+    max-width: 112px
+
+.footer-links
+  padding: 0
+  margin: 0
+  width: 88%
+  list-style: none
+  display: -webkit-box
+  display: -moz-box
+  display: -ms-flexbox
+  display: -webkit-flex
+  display: flex
+  -webkit-flex-flow: row wrap
+  justify-content: space-between
+
+  ul
+    padding: 0
+    margin: 0
+    list-style: none
