@@ -10,7 +10,11 @@
   deliver: "Facciamo un'analisi dei valori e degli obiettivi,<br>introduciamo al Masterplan <br> ecomponiamo l'Open Business Model Canvas canvas <br>compilando poi lo schema operativo"
   period: "4 giorni"
   icon: 'shopping-cart.svg'
-- cost: 'Scrivici'
+- cost: '<a href="mailto:contact@osd.tools">Scrivici</a>'
   deliver: "Interveniamo con il Masterplan management<br> assumendo il ruolo di Temporary Product Owner"
   period: "Mensile"
+  icon: 'truck.svg'
+- cost: '<a href="/documents/servizi/#probono">Proponiti</a>'
+  deliver: "Offriamo i nostri servizi a chi non può altrimenti accederci ma che dimostra chiaramente un potenziale impatto nella scena del riuso e della produzione dei dati aperti"
+  period: "Probono"
   icon: 'truck.svg'

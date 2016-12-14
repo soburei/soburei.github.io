@@ -39,6 +39,7 @@ layout: default
   <div class="section-text">
     {{ home-block.content | markdownify }}
   </div>
+  <h2>{{ home-block.under-link }}</h2>
 </section>
 {% endfor %}
 
@@ -53,14 +54,14 @@ layout: default
   </div>
 
   <div class="section-title-container">
-    <h2><a href="/documents/servizi">Prezzi e servizi</a></h2>
-    <span class="section-home-subtitle"><a href="/documents/servizi/#probono">Probono</a></span>
+    <h2>Prezzi</h2>
+    <span class="section-home-subtitle"><a href="/documents/servizi/">Servizi</a></span>
   </div>
 
   <div class="section-text">
   {% for price in site.data.prices %}
     <div class="">
-      <h3><b>{{ price.period }}</b>: <a href="mailto:contact@osd.tools">{{ price.cost }}</a></h3>
+      <h3><b>{{ price.period }}</b>: {{ price.cost }}</h3>
       <p>{{ price.deliver }}</p>
 
     </div>

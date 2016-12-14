@@ -21,6 +21,7 @@
   image: 'icon-obm.svg'
   button-url: 'javascript:void(0)'
   content: "Il business model è un elemento essenziale di organizzazione di un progetto. I progetti open data non sono un'eccezione. La nostra sfida è di aiutare a scoprire nuove opportunità di mercato per i dati dei nostri clienti, definire nuovo valore per gli stakeholder coinvolti nei loro network e studiare strategie per aprire i confini della loro organizzazione, accelerando lo sviluppo e abbattendone i costi."
+  under-link: '<a href="/documents/progetti">Progetti</a>'
 
 - top-name: '3/4'
   prev-id: 'obm'
