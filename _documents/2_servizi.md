@@ -1,7 +1,13 @@
 ---
 layout: page
 title: Servizi
-display-order: 3
+prec: '/documents/1_about.html'
+prec-title: About
+prox: '/documents/3_progetti.html'
+prox-title: Progetti
+date: 2016-12-15
+update: 2016-12-16
+english:
 ---
 
 Creiamo servizi e progetti di riuso dati. Per fare questo svolgiamo delle attività preliminari per verificare che ci sia innanzitutto la presenza di condivisione interna e, successivamente, definiamo dei modelli per generare valore dalle attività di condivisione verso l'esterno.

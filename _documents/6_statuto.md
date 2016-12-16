@@ -1,9 +1,13 @@
 ---
 layout: page
 title: Statuto di opensensorsdata srl
-display-order: 6
-date: 2015-03-15
+date: 2015-03-30
+prec: '/documents/5_manifesto.html'
+prec-title: Manifesto
+prox: '/documents/0_indice.html'
+prox-title: Indice
 update:
+english:
 ---
 
 Repertorio n. **34845** Raccolta n. **27490**

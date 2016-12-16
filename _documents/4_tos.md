@@ -1,8 +1,13 @@
 ---
 layout: page
 title: Termini e condizioni d'uso
-display-order: 5
-update: 2015-12-15
+date: 2016-12-15
+prec: '/documents/3_progetti.html'
+prec-title: Progetti
+prox: '/documents/5_manifesto.html'
+prox-title: Manifesto OSD
+update:
+english:
 ---
 
 Benvenuti in OSD, questi sono i termini e le condizioni che regolano l'utilizzo del nostro sito. Questo accordo vale indipendentemente da quale piattaforma / dispositivo state utilizzando per accedere al sito.

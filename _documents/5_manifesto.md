@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Manifesto
-display-order: 2
-update: 2015-06-30
+title: Manifesto OSD
+date: 2015-06-30
+prec: '/documents/4_tos.html'
+prec-title: Termini e condizioni d'uso
+prox: '/documents/6_statuto.html'
+prox-title: Statuto OSD
+update:
 english: /manifesto_en
 ---
 
@@ -22,4 +26,4 @@ Questo è il nostro impegno: costruire un’economia aperta in un mercato interc
 
 **Vuoi unirti a noi?**
 
-*andrea raimondi, luca corsato, simone cortesi giugno 2015*
+*andrea raimondi, luca corsato, simone cortesi*

@@ -28,32 +28,16 @@
              font-style: normal; }
 
 
-//@import "assets/fonts/font-awesome-4.7.0/css/font-awesome.css";
+@import "/assets/fonts/font-awesome-4.7.0/css/font-awesome.css";
 
 @import "bourbon/app/assets/stylesheets/_bourbon";
 
 @import "base/tufte";
 @import "base/custom-osd";
 @import "base/variables";
-//@import "base/normalize";
-//@import "base/syntax";
-//@import "base/general";
-//@import "base/helpers";
 
-//@import "components/header";
-
-//@import "components/buttons";
 @import "components/footer";
-//@import "components/card";
+@import "components/header";
 
-@import "page/home";
-
-//@import "pages/page";
-//@import "pages/header";
-
-//@import "section/home-block";
-//@import "section/home-section-decoration";
-//@import "section/home-section";
-//@import "section/home-section-elements";
-//@import "section/cards-block";
-//@import "section/home-section";
+@import "pages/home";
+@import "pages/page";
