@@ -3,7 +3,7 @@ layout: page
 title: Manifesto
 display-order: 2
 update: 2015-06-30
-english: /manifesto/
+english: /manifesto_en
 ---
 
 Internet è un accordo su come diversi network possano lavorare insieme; non appartiene a nessuno in particolare, ma ce ne serviamo tutti. Per coloro che vi partecipano Internet rappresenta un bene pubblico – ognuno può usarlo e migliorarlo – ma il suo valore non è nella sua infrastruttura; Internet in sé è stupido: non fa altro che muovere bit da una parte all’altra. Grazie all’accordo aperto e non proprietario sul quale si basa, ognuno può condividere dati e informazioni; ognuno, ad ogni estremità della rete, può offrire servizi costruiti su di essa. Internet rende possibile un mercato libero dell’innovazione, dove chiunque con un’idea di business e con degli obiettivi d’impresa, non solo è libero di entrare in contatto con il mercato, lo può creare. I margini della rete non sono punti dove il suo valore finisce, ma dove comincia a manifestarsi. Noi siamo a quei margini. Siamo un’impresa Internet. Questa è la nostra proposta.

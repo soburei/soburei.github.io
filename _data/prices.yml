@@ -14,7 +14,7 @@
   deliver: "Interveniamo con il Masterplan management<br> assumendo il ruolo di Temporary Product Owner"
   period: "Mensile"
   icon: 'truck.svg'
-- cost: '<a href="/documents/servizi/#probono">Proponiti</a>'
+- cost: '<a href="/documents/servizi#probono">Proponiti</a>'
   deliver: "Offriamo i nostri servizi a chi non può altrimenti accederci ma che dimostra chiaramente un potenziale impatto nella scena del riuso e della produzione dei dati aperti"
   period: "Probono"
   icon: 'truck.svg'

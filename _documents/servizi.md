@@ -4,33 +4,11 @@ title: Servizi
 display-order: 3
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Creiamo servizi e progetti di riuso dati. Per fare questo svolgiamo delle attività preliminari per verificare che ci sia innanzitutto la presenza di condivisione interna e, successivamente, definiamo dei modelli per generare valore dalle attività di condivisione verso l'esterno.
 
-You can find the source code for the Jekyll new theme at:
- /
-[minima](https://github.com/jekyll/minima)
+Per gli Enti Pubblici si tratta di trasformare degli adempimenti come pubblicazione dei dati, trasparenza e anticorruzione, in erogazione di servizi finalizzati al riuso da parte delle controparti sociali e professionali.
 
-You can find the source code for Jekyll at
- /
-[jekyll](https://github.com/jekyll/jekyll)
-
-<div class="page-price-cards">
-  <div class="card-container-page">
-    {% for price in site.data.prices %}
-    <div class="card">
-      <div class="card-title">
-        <span class="card-period">{{ price.period }}</span>
-        <span class="card-deliver">{{ price.deliver }}</span>
-      </div>
-      <div class="card-prezzo">
-        <span class="card-period">{{ price.cost }}</span>
-        <img src="/assets/img/icons/{{ price.icon }}" alt="price icon" />
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
+Per gli Enti Privati si genera valore economico e strategico dalla condivisione per ridurre costi di esplorazione dei mercati, per attrarre ricerca e sviluppo, e per espansione della filiera.
 
 <h1 id="probono">Probono</h1>
 <h4>Perchè offriamo i nostri servizi pro bono e perchè dovresti contattarci</h4>
