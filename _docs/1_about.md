@@ -16,7 +16,7 @@ Abbiamo fatto cose e visto gente nei vari [posti dell'open](https://blog.osd.too
 
 Non lo facciamo per "[make the world a better place](https://youtu.be/IXuFrtmOYKg)" ma perché siamo curiosi e ci divertiamo impastando dati con conoscenza.
 
-Questi siamo noi, questo il nostro [manifesto](/docs/5_manifesto.html) e i nostri [progetti](/docs/progetti.html).
+Questi siamo noi, questo il nostro [manifesto](/docs/5_manifesto.html) e i nostri [progetti](/docs/3_progetti.html).
 
 {% for author in site.data.authors %}
 <div class="profile-about">
