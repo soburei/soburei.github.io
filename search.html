@@ -1,0 +1,51 @@
+---
+layout: search
+title: Cerca
+prec: '/docs/6_statuto.html'
+prec-title: Statuto
+prox: '/'
+prox-title: Home
+---
+<form action="/search.html" method="get">
+  <label for="search-box">Search</label>
+  <input type="text" id="search-box" name="query">
+  <input type="submit" value="search">
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    {% for doc in site.docs %}
+      "{{ doc.url | slugify }}": {
+        "title": "{{ doc.title | xml_escape }}",
+        "author": "{{ doc.author | xml_escape }}",
+        "category": "{{ doc.category | xml_escape }}",
+        "content": {{ doc.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ doc.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
+
+<h1>Indice</h1>
+
+<p>
+  <a href="/docs/1_about.html">About</a><br>
+  <a href="/docs/2_servizi.html">Servizi e prezzi</a><br>
+  <a href="/docs/3_progetti.html">Progetti</a><br>
+  <a href="/docs/4_tos.html">Termini e condizioni d'uso</a><br>
+  <a href="/docs/5_manifesto.html">Manifesto</a><br>
+  <a href="/docs/6_statuto.html">Statuto di OSD</a><br>
+</p>
+  <hr>
+  <p><a href="http://blog.osd.tools">Blog di OSD</a><br></p>
+
+  <hr>
+  <p>
+    <a href="http://masterplan.tools">Masterplan</a><br>
+    <a href="http://projectopendata.com">Project open data</a><br>
+  </p>

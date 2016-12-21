@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Servizi
-prec: '/documents/1_about.html'
+prec: '/docs/1_about.html'
 prec-title: About
-prox: '/documents/3_progetti.html'
+prox: '/docs/3_progetti.html'
 prox-title: Progetti
 date: 2016-12-15
 update: 2016-12-16

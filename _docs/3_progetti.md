@@ -2,9 +2,9 @@
 layout: page
 title: Progetti
 date: 2016-12-15
-prec: '/documents/2_servizi.html'
+prec: '/docs/2_servizi.html'
 prec-title: Servizi
-prox: '/documents/4_tos.html'
+prox: '/docs/4_tos.html'
 prox-title: ToS
 update:
 english:
@@ -21,6 +21,7 @@ english:
 {% for project in site.data.projects %}
   <h2 id="{{ project.id }}"><a href="{{ project.site }}">{{ project.name }}</a></h2>
   <p class="project-content">
+    <label for="{{ project.checkbox }}" class="margin-toggle">&#8853;</label><br>
     <input type="checkbox" id="{{ project.checkbox }}" class="margin-toggle"/>
     <span class="marginnote">
       <img src="/assets/img/projects/{{ project.img }}" alt="immagine di {{ project.name }}">
@@ -36,7 +37,6 @@ english:
     <small>Attività:</small> {{ project.activities }}<br>
     <small>Tipo di rapporto:</small> {{ project.type }}<br>
     <br>
-    <label for="{{ project.checkbox }}" class="margin-toggle">&#8853;</label><br>
     {{ project.description }}
   </p>
   <hr>

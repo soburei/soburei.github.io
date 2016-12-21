@@ -6,7 +6,7 @@
   logo: 'ICCD.jpg'
   img: "openiccd.png"
   date: "2016 - in progress"
-  type: "contract"
+  type: "Contratto"
   activities: "Masterplan management, Temporary product ownership"
   description: "L'ICCD ha avviato un processo di condivisione dei dati di catalogazione dei beni culturali, con una serie di strumenti a soddisfare le esigenze di utenti che si presentano diversificati per caratteristiche e aspettative."
   description-en: "ICCD has launched its first opendata program. The goal of the project is to release cultural heritage data with open license, together with a set of tools to facilitate their reuse according to different contexts and users."
@@ -21,12 +21,27 @@
   logo: 'transparency_italia.png'
   img: "curiamolacorruzione.png"
   date: "2016 - in progress"
-  type: "contract"
+  type: "Contratto"
   activities: "project management, open business model"
   description: "<i>Curiamo la Corruzione</i> è un progetto di Transparency International volto a migliorare la trasparenza delle aziende sanitarie. l'Obiettivo del progetto è quello di informare e aiutare il personale delle aziende sanitarie ad avviare processi interni per combattere il fenomeno della corruzione e condividere i dati delle attività interna per aumentare la trasparenza."
   description-en: "<i>A Cure for Corruption</i> is a project by Transparency International. The mission is to promote transparency in the healthcare system. The goal of the project is to inform and help the executives and staff to fight corruption by means of clear and robust internal processes, and to share data from internal activities to improve organizations' transparency."
   site: "http://www.curiamolacorruzione.it"
   site-name: "Curiamo la corruzione"
+
+- name: "Facebook.tracking.exposed"
+  id: "fbtrex"
+  checkbox: "5"
+  partner-1: 'Claudio Agosti aka @_vecna '
+  partner-url-1: 'https://twitter.com/_vecna'
+  logo: 'fbtrex_logo.png'
+  img: "fb_trex.png"
+  date: "2016 - in progress"
+  type: "Probono"
+  activities: "Masterplan management, Temporary product ownership, Seeking research funds, logo e brand design"
+  description: "Fbtrex è un progetto sperimentale di valutazione degli algoritmi di personalizzazione utilizzati da facebook per organizzare il flusso informativo nelle timeline degli utenti. Ha l'obiettivo di migliorare la trasparenza degli algortimi mettendo a disposizione opendata per aiutare ricercatori e utenti a capire come questi algoritmi inflenzano i comportamenti sociali."
+  description-en: "Fbtrex is a project that aim to increase transparency behind personalization algorithms, so that people can have more effective control of their online Facebook experience and more awareness of the information to which they are exposed. It collects and offers opendata to help researchers address the social effect of algorithms."
+  site: "https://facebook.tracking.exposed/"
+  site-name: "facebook.tracking.exposed"
 
 - name: "Archeostickers"
   id: "archeostickers"
@@ -52,28 +67,13 @@
   partner-url-1: 'http://www.ibimet.cnr.it/'
   logo: 'cnribimet.png'
   img: "porcellino.png"
-  date: "end 2016"
-  type: "contract"
+  date: "end 2015"
+  type: "Contratto"
   activities: "ideation, opendata stream, communication design"
   description: "PorcellinoBot è un progetto di sperimentazione sulla comunicazione dei dati meteo avviato in collaborazione tra Ibimet e CNR."
   description-en: "PorcellinoBot is an experimental project about the communication and siddemination of weather data, launched with the Italian Institute of Biometeorology and the National Research Council."
   site: "https://github.com/opensensorsdata/PorcellinoBot"
   site-name: "Codice del PorcellinoBot"
-
-- name: "Facebook.tracking.exposed"
-  id: "fbtrex"
-  checkbox: "5"
-  partner-1: 'Claudio Agosti aka @_vecna '
-  partner-url-1: 'https://twitter.com/_vecna'
-  logo: 'fbtrex_logo.png'
-  img: "fb_trex.png"
-  date: "2016 - in progress"
-  type: "pro bono"
-  activities: "Masterplan management, Temporary product ownership, Seeking research funds"
-  description: "Fbtrex è un progetto sperimentale di valutazione degli algoritmi di personalizzazione utilizzati da facebook per organizzare il flusso informativo nelle timeline degli utenti. Ha l'obiettivo di migliorare la trasparenza degli algortimi mettendo a disposizione opendata per aiutare ricercatori e utenti a capire come questi algoritmi inflenzano i comportamenti sociali."
-  description-en: "Fbtrex is a project that aim to increase transparency behind personalization algorithms, so that people can have more effective control of their online Facebook experience and more awareness of the information to which they are exposed. It collects and offers opendata to help researchers address the social effect of algorithms."
-  site: "https://facebook.tracking.exposed/"
-  site-name: "facebook.tracking.exposed"
 
 - name: "Climb.world"
   id: "climbworld"
@@ -83,7 +83,7 @@
   logo: 'climbworld.png'
   img: "climbworld.png"
   date: "2016 - in progress"
-  type: "pro bono"
+  type: "Probono"
   activities: "Masterplan management, Temporary product ownership"
   description: "ClimbWorld è la prima biblioteca aperta fatta da arrampicatori per gli arrampicatori. Consente alla community di scoprire e condividere i luoghi e gli eventi di arrampicata, e apre nuove e inesplorate possibilità di tracciatura online, curation digitale e on-field test di nuove attrezzature."
   description-en: "ClimbWorld is the most advanced open library made by climbers for climbers. We created a way for the climbing community to discover and share climbing places and events. ClimbWorld opens new unexplored possibilities of online boulder tracking, digital curation and on-field gears' test."

@@ -50,5 +50,5 @@ exclude:
 
 # Collection
 collections:
-  documents:
+  docs:
     output: true

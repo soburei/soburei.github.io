@@ -2,9 +2,9 @@
 layout: page
 title: Manifesto OSD
 date: 2015-06-30
-prec: '/documents/4_tos.html'
+prec: '/docs/4_tos.html'
 prec-title: Termini e condizioni d'uso
-prox: '/documents/6_statuto.html'
+prox: '/docs/6_statuto.html'
 prox-title: Statuto OSD
 update:
 english: /manifesto_en

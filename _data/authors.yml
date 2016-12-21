@@ -1,0 +1,26 @@
+- name: Luca
+  full_name: Luca Corsato
+  img: "/assets/img/faces/luca.jpg"
+  tw: lucacorsato
+  github: lucacorsato
+  telegram: lucacorsato
+  mail: luca@osd.tools
+  description: "Co-Fondatore, Amministratore unico"
+
+- name: Andrea
+  full_name: Andrea Raimondi
+  img: "/assets/img/faces/andrea.jpg"
+  tw: raimondiand
+  github: raimondiand
+  telegram: raimondiand
+  mail: andrea@opensensorsdata.it
+  description: "Co-Fondatore, Filosofo"
+
+- name: Simone
+  full_name: Simone Cortesi
+  img: "/assets/img/faces/simone.jpg"
+  tw: simonecortesi
+  github: cortesisimone
+  telegram: cortesisimone
+  mail: simone@cortesi.com
+  description: "Co-Fondatore, Dr. Manhattan"

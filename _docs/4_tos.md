@@ -2,9 +2,9 @@
 layout: page
 title: Termini e condizioni d'uso
 date: 2016-12-15
-prec: '/documents/3_progetti.html'
+prec: '/docs/3_progetti.html'
 prec-title: Progetti
-prox: '/documents/5_manifesto.html'
+prox: '/docs/5_manifesto.html'
 prox-title: Manifesto OSD
 update:
 english:

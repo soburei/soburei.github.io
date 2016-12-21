@@ -21,7 +21,7 @@
   image: 'icon-obm.svg'
   button-url: 'javascript:void(0)'
   content: "Il business model è un elemento essenziale di organizzazione di un progetto. I progetti open data non sono un'eccezione. La nostra sfida è di aiutare a scoprire nuove opportunità di mercato per i dati dei nostri clienti, definire nuovo valore per gli stakeholder coinvolti nei loro network e studiare strategie per aprire i confini della loro organizzazione, accelerando lo sviluppo e abbattendone i costi."
-  under-link: '<a href="/documents/3_progetti">Progetti</a>'
+  under-link: '<a href="/docs/3_progetti">Progetti</a>'
 
 - top-name: '3/4'
   prev-id: 'obm'
@@ -33,5 +33,5 @@
   subtitle: 'Armonizzare processi e persone'
   image: 'icon-masterplan.svg'
   button-url: 'http://masterplan.tools'
-  extra-text: '<a class="button button-primary button-tiny" href="/documents/progetti.html">progetti</a>'
+  extra-text: '<a class="button button-primary button-tiny" href="/docs/progetti.html">progetti</a>'
   content: "La nostra missione è aiutare i nostri clienti a sviluppare e perseguire un uso strategico degli open data. Il [masterplan](http://masterplan.tools) è il nostro metodo agile per raggiungere questo obiettivo. Consente di catturare il valore dei dati e applicarlo ai modelli di business tradizionali. Masterplan è pensato per armonizzare gli obiettivi di business con l'organizzazione dei ruoli, processi e attività che ne consentono il raggiungimento."
