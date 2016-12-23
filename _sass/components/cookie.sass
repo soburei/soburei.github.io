@@ -1,0 +1,42 @@
+#cookie
+  position: fixed
+  display: block
+  left: 0
+  right: 0
+  bottom: 0
+  margin: 0
+  padding: 0
+  color: #111
+  background-color: rgba(255, 255, 248, 0.9)
+  text-align: center
+  border-top: 3px solid $indigo
+
+  > *
+    margin: 0.5em
+
+  input
+    display: none
+
+    // Put text in CSS so search engines don't index it
+    // This is optional!
+    &:not(:checked) ~ span::before
+      content: ""
+      display: inline
+
+
+    &:checked ~ *
+      display: none
+      // Prevent interacting with any elements in the notice after clicking it away.
+      // This is optional!
+      pointer-events: none
+
+.btn
+  background-color: $indigo
+  color: #FFFFF8
+  text-transform: uppercase
+  padding: 2px 5px
+  border-radius: 4px
+
+.alert-text
+  display: flex
+  justify-content: space-around

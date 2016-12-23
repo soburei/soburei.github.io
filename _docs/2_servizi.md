@@ -22,3 +22,5 @@ Per gli Enti Privati si genera valore economico e strategico dalla condivisione 
 Noi di OSD abbiamo fatto parte del movimento opendata fin dai primi anni. Abbiamo visto e contribuito alla sua crescita. Gli effetti sono ora visibili in diversi campi; dalla trasparenza al civic engagement fino alla conservazione dei beni pubblici. Ma sappiamo bene che le radici del movimento affondano nell'attivismo, nella passione civica e in tanti piccoli esperimenti locali. Lo sappiamo, eravamo lì. Ecco perchè offriamo i nostri servizi a chi non può altrimenti accederci ma che dimostra chiaramente un potenziale impatto nella scena del riuso e della produzione dei dati aperti.
 
 Se pensi di essere un buon candidato faccelo sapere. Scarica il form dal link in basso. Ti chiediamo di compilarlo perchè senza avere un quadro chiaro del tuo progetto, della tua missione e di come vuoi portarla a termine non saremmo in grado di valutare la tua proposta, nè di fartene una concreta e adeguata alle tue esigenze.
+
+[Compila il form del progetto](https://docs.google.com/forms/d/e/1FAIpQLSesMiFIs6s_Wl7uN5Yr-kbvVILUtJ-GPfR_bSDzN46jafuWwQ/viewform) che vuoi sottoporci

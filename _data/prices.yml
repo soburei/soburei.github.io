@@ -7,7 +7,7 @@
   period: "1 giornata"
   icon: 'shopping-basket.svg'
 - cost: "3400€ <small>+ IVA</small>"
-  deliver: "Facciamo un'analisi dei valori e degli obiettivi,<br>introduciamo al Masterplan <br> ecomponiamo l'Open Business Model Canvas canvas <br>compilando poi lo schema operativo"
+  deliver: "Facciamo un'analisi dei valori e degli obiettivi,<br>introduciamo al Masterplan <br> e componiamo l'Open Business Model Canvas canvas <br>compilando poi lo schema operativo"
   period: "4 giorni"
   icon: 'shopping-cart.svg'
 - cost: '<a href="mailto:contact@osd.tools">Scrivici</a>'
